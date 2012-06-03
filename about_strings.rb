@@ -17,7 +17,7 @@ class AboutStrings < EdgeCase::Koan
   end
 
   def test_use_double_quotes_to_create_strings_with_single_quotes
-    string = "Don't"
+    string = "Don\'t"
     assert_equal __, string
   end
 
